@@ -1,0 +1,22 @@
+# Dependencias
+/node_modules
+
+# Archivos de registro
+*.log
+
+# Directorios de compilación
+/build
+
+# Archivos de entorno
+.env
+
+# Archivos de caché
+.nyc_output
+/.cache
+
+# Archivos de configuración de IDE
+/.vscode
+/.idea
+
+# Archivos temporales
+/uploads
