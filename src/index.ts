@@ -14,7 +14,7 @@ myDataSource
     const cors = require("cors");
     app.use(
       cors({
-        origin: "http://localhost:3001",
+        origin: "https://frontend-cartas.vercel.app",
       })
     );
     router.get("/productos", ProductoController.getAll);
